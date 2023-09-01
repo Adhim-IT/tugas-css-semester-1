@@ -1,0 +1,231 @@
+body {
+  /* mmengatur elemen body */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ebebebfd;
+}
+
+main {
+  /* mengatur seluruh elemen main  */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  /* mengatur seluruh elemen section */
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* mengatur elemen navbar */
+.navbar {
+  background-color: #3498db;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  /* mengatur a yang berada di dalam navbar */
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+  /* mengatur hover pada a yang berada di navbar*/
+  background-color: #2980b9;
+}
+
+.navbar a.active {
+  /* mengatur active pada a yang berada di navbar*/
+  background-color: #ddd;
+  color: black;
+}
+
+.latihan5 header {
+  /* mengatur header di class latihan5 */
+  text-align: center;
+  color: blue;
+  padding: 20px 0;
+}
+.latihan5 h1 {
+  /* mengatur elemen h1 di class latihan5 */
+  margin: 0;
+  font-size: 36px;
+}
+
+.latihan5 h3 {
+  /* mengatur elemen h3 di class latihan5 */
+  margin-top: 0;
+  font-size: 24px;
+  color: #3498db;
+}
+
+.latihan5 p {
+  /* mengatur elemen p di class latihan5 */
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.latihan5 ol,
+li {
+  /* mengatur ol dan li di class latihan5 */
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.latihan6 h1 {
+  /* mengatur h1 di dalam class latihan6 */
+  color: crimson;
+}
+
+.latihan6 #judul {
+  /*  mengatur id judul yang berada di dalam class latihan6 */
+  color: orange;
+}
+
+.latihan6 .tengah {
+  /* mengatur class tengah di dalam class latihan6 */
+  align-self: center;
+  color: blue;
+}
+.latihan6 h1 {
+  /* mengatur h1 di dalam class latihan6 */
+  text-align: center;
+}
+
+.latihan6 h2,
+h3 {
+  /* mengatur h2 dan h3 di dalam class latihan6 */
+  color: midnightblue;
+}
+
+.latihan6 img {
+  /* mengatur img di latihan6 */
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+
+.latihan7 {
+  /* mengatur class latihan7 */
+  text-align: center;
+}
+
+.latihan7 h1 {
+  /* mengatur h1 di dalam latihan7 */
+  color: aqua;
+}
+
+.latihan7 a:link {
+  /* mengatur a link (Digunakan untuk tautan yang belum pernah dikunjungi oleh pengguna.) dalam class latihan7 */
+  color: midnightblue;
+}
+
+.latihan7 a:visited {
+  /* mengatur a visited (Digunakan untuk tautan yang telah dikunjungi oleh pengguna.) dalam class latihan7 */
+  color: green;
+}
+
+.latihan7 a:hover {
+  /* mengatur a hover (Digunakan ketika pengguna mengarahkan kursor mereka ke tautan.) dalam class latihan7 */
+  color: orange;
+}
+.latihan7 a:active {
+  /* mengatur a active ( Digunakan ketika tautan sedang dalam keadaan aktif, misalnya ketika tombol ) dalam class latihan7 */
+  color: darkcyan;
+}
+
+.latihan7 .button {
+  /* mengatur class button di dalam class latihan7 */
+  border-radius: 5px;
+  border: none;
+  background-color: midnightblue;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+}
+.latihan7 .button:hover {
+  /* megatur hover button */
+  background-color: orange;
+}
+.latihan7 .button:active {
+  /* mengatur active button */
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+
+/* Setel jenis font dan batas tabel */
+.table2 {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+}
+
+/* Gaya untuk bagian kepala tabel */
+.table2 thead {
+  background-color: aqua;
+}
+
+/* Tengahkan teks pada elemen h3 */
+.table2 h3 {
+  text-align: center;
+}
+
+/* Gaya untuk seluruh tabel */
+.table2 table {
+  width: 500px;
+  margin: 100px auto;
+  height: 200px;
+}
+
+/* Gaya untuk kepala tabel dan sel data tabel */
+.table2 thead,
+.table2 td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
+
+/* Setel lebar kolom pertama pada kepala dan data tabel */
+.table2 thead:first-child,
+.table2 td:first-child {
+  width: 50px;
+}
+
+/* Setel lebar kolom selain kolom pertama */
+.table2 thead:not(:first-child),
+.table2 td:not(:first-child) {
+  width: 100px;
+}
+
+/* Gaya untuk baris ganjil dalam tubuh tabel */
+.table2 tbody tr:nth-child(odd) {
+  background-color: #81cfe0;
+  color: white;
+}
+
+/* Gaya untuk baris genap dalam tubuh tabel */
+.table2 tbody tr:nth-child(even) {
+  background-color: #81cfe0;
+  color: white;
+}
+
+/* Sorot baris saat dihover */
+.table2 tbody tr:hover {
+  background-color: #ffd700;
+  color: black;
+}
